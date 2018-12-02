@@ -33,3 +33,22 @@
 | Qubic Arrays | 1/0 | 
 | Scalar Extension | 1/0 |
 | Predicates | 1/1 |
+
+Legend:
+| Abbrev	| Description                          |
+| ------------- | ------------------------------------ |
+| LoC		| Linese of Code                       |
+| Chars		| Character Count                      |
+| Tokens	| Token Count                          |
+| Nodes		| AST node count                       |
+| Vocab		| Primitive imported vocabulary count  |
+| Forms		| Primitve imported syntax forms       |
+| Data		| Datatypes used in the solution       |
+| Variables	| Variable definitions                 |
+| UDF		| Named user-defined functions         |
+| GlobalVar	| Named Global Variables               |
+| Concepts	| Unique Abstract Concepts used        |
+| Scaff		| Amount of Scaffolding (%)            |
+| DtU		| Distance from Definition to Use Site | 
+| SemDen	| Semantic Density                     |
+| Depth		| Depth of the AST                     |
