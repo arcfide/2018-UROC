@@ -1,9 +1,10 @@
-| Problem | LoC    | Chars     | Tokens     | Nodes     | Vocab   | Forms | Data | Variables | UDF | GlobalVar | Concepts | Inf | Scaff | DtU | Transferability | SemDen | Depth |
-| ------- | -----  | ----      | ------     | -----     | -----   | ----- | ---- | --------- | --- | --------- |-------- | --- | ----- | --- | --------------- | ------ | ----- |
-|  H1 Car | 11/107 |  700/2799 |  361/229   |  172/200  |  30/21  |  4/4  | 1/4  |    17/29    | 5/6 |   3/13   | 24/14   | ?/? |  ?/?  | ?/? |      ?/?        |    |
+| Problem | LoC    | Chars     | Tokens     | Nodes     | Vocab   | Forms | Data | Variables   | UDF | GlobalVar | Concepts | Scaff  | Max-DtU | SemDen | Depth |
+| ------- | -----  | ----      | ------     | -----     | -----   | ----- | ---- | ---------   | --- | --------- |--------  |  ----- | ---     | ------ | ----- |
+|  H1 Car | 11/107 |  700/2799 |  361/229   |  172/200  |  30/26  |  4/4  | 1/4  |    17/29    | 5/6 |   3/13    | 24/14    |  7/54  | 5/33    | 85/54  |  4/5  |
 
 
 | Concept | H1 Car |
+| ------- | ------ |
 | Bindings | 1/1 |
 | Functions | 1/1 |
 | Arrays | 1/0|
