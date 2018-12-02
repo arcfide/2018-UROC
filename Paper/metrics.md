@@ -49,6 +49,5 @@ Legend:
 | Concepts	| Unique Abstract Concepts used        |
 | Scaff		| Amount of Scaffolding (%)            |
 | DtU		| Distance from Definition to Use Site | 
-| Transf	| Transferability of the code          |
 | SemDen	| Semantic Density                     |
 | Depth		| Depth of the AST                     |
