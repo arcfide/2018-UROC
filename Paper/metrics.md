@@ -48,7 +48,7 @@
 | Scalar Extension | 1/0 |
 | Predicates | 1/1 |
 
-Legend:
+
 | Abbrev	| Description                          |
 | ------------- | ------------------------------------ |
 | LoC		| Linese of Code                       |
