@@ -6,3 +6,4 @@ Code/gfx.cpp
 *.log
 *.pdb
 *.obj
+.DS_Store

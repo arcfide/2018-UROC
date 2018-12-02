@@ -1,0 +1,34 @@
+| Problem | LoC    | Chars     | Tokens     | Nodes     | Vocab   | Forms | Data | Variables | UDF | GlobalVar | Concepts | Inf | Scaff | DtU | Transferability | SemDen | Depth |
+| ------- | -----  | ----      | ------     | -----     | -----   | ----- | ---- | --------- | --- | --------- |-------- | --- | ----- | --- | --------------- | ------ | ----- |
+|  H1 Car | 11/107 |  700/2799 |  361/229   |  172/200  |  30/21  |  4/4  | 1/4  |    17/29    | 5/6 |   3/13   | 24/14   | ?/? |  ?/?  | ?/? |      ?/?        |    |
+
+
+| Concept | H1 Car |
+| Bindings | 1/1 |
+| Functions | 1/1 |
+| Arrays | 1/0|
+| Modules | 1/1|
+| Variables | 1/1 | 
+| Arithmatic | 1/1 | 
+| Indexing | 1/0 |
+| Overlay | 1/1 | 
+| Underlay | 0/1 |
+| rgb Values | 1/0|
+| Strings | 0/1|
+| Trig | 1/0 | 
+| Map | 1/0 |
+| HoF | 1/0 |
+| Mutation | 1/0 |
+| Conditionals | 0/1 |
+| Termination | 1/1 | 
+| Event Hadnling | 0/1 |
+| Timing | 1/1 |
+| Geometry | 1/1 |
+| Min/Max | 1/0 |
+| Transpose | 1/0 |
+| Rank | 1/0 |
+| Commute | 1/0 |
+| Nested Arrays | 1/0 |
+| Qubic Arrays | 1/0 | 
+| Scalar Extension | 1/0 |
+| Predicates | 1/1 |
