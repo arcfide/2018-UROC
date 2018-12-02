@@ -1,16 +1,11 @@
 ﻿:Namespace H1∆Car
 
-   circle ← {r←⍵⍵ ⋄ m←⍺⍺ ⋄ 0@{r≥0.5*⍨+⌿¨2*⍨(⊂m)-⍨⍳⍴⍵}⍵}
-     dist ← {0.5*⍨+⌿¨2*⍨⍵-⍺}
+ cir ← {img←⍵ ⋄ img⊣{yx r rgb←⍵ ⋄ img∘←rgb⊣@((⊂yx)+i⌿⍨r≥0.5*⍨+⌿¨×⍨r-i←,⍳(1+2×r r)⌊yx-⍨1↓⍴img)⍤¯1⊢img ⋄ 0}⍤1⊢⍺}
+ rec ← {img←⍵ ⋄ img⊣{yx hw rgb←⍵ ⋄ img∘←rgb⊣@((⊂yx)+⍳hw⌊yx-⍨1↓⍴img)⍤¯1⊢img ⋄ 0}⍤1⊢⍺}                          
 
-rec←{xy hw rgb←⍵ ⋄ (⍉rgb)((×/hw)⌿⊣)@(⊃,/,¨(⊂¨↓xy)+⍳¨↓hw)⍤¯1⊢⍺} 
+ body←2 3⍴(30 0)(50 200)(255 0 0)(0 50)(30 100)(255 0 0)
+ wheels←2 3⍴(50 25)25(0 0 0)(50 125)25(0 0 0)
 
- car←{                             
-     z←(⍺+0 120)rectangle 200 150⊢⍵
-     z←(⍺+200 0)rectangle 100 400⊢z
-     z←(⍺+300 100)circle 50⊢z      
-     z←(⍺+300 300)circle 50⊢z      
-     z                             
- }                                 
+ car←{img←⍵ ⋄ wheels cir body rec ⍵}
 
 :EndNamespace
