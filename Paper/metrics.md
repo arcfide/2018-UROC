@@ -1,6 +1,20 @@
-| Problem | LoC    | Chars     | Tokens     | Nodes     | Vocab   | Forms | Data | Variables   | UDF | GlobalVar | Concepts | Scaff  | Max-DtU | SemDen | Depth |
-| ------- | -----  | ----      | ------     | -----     | -----   | ----- | ---- | ---------   | --- | --------- |--------  |  ----- | ---     | ------ | ----- |
-|  H1 Car | 11/107 |  700/2799 |  361/229   |  172/200  |  30/26  |  4/4  | 1/4  |    17/29    | 5/6 |   3/13    | 24/14    |  7/54  | 5/33    | 85/54  |  4/5  |
+| Metric | Racket | Scratch |
+| ------ | ------ | ------- | 
+| LoC    | 11/107 |         |
+| Chars | 700/2799 |        | 
+| Tokens | 361/229 |        |
+| Nodes  | 172/200 |        |
+| Vocab  | 30/26   |        |
+| Forms  | 4/4     |        |
+| Data   | 1/4     |        |
+| Variables | 17/29 |       |
+| UDF       | 5/6  |        |
+| GlobalVar | 3/13 |        |
+| Concepts  | 24/14 |       |
+| Scaff     | 7/54  |       |
+| Max-Dtu   | 5/33  |       |
+| SemDen    | 85/54 |       |
+| Depth     | 4/5   |       |
 
 
 | Concept | H1 Car |
