@@ -21,7 +21,7 @@
   (m⌿dir)←(○¯1)+2×○?0⍴⍨+/m←(typ>0)∧0=25|age                 ⍝ Change direction every 25 steps
   age pos dir typ⍪←z(m⌿pos)(z←0⍴⍨+⌿m)(-typ⌿⍨m)              ⍝ ...and clone sprites
   (m⌿dir)←atan2/(0⌷pos)-⍤1⊢(m←typ<0)⌿pos                    ⍝ Clones always chase the player
-  (0⌷dir)←(⊃{⊂⍋.5*⍨+/×⍨⍵}⌷atan2/)((typ=¯1)⌿pos)-⍤1⊢0⌷pos    ⍝ Player chases closest green clone
+  (0⌷dir)←({⊃⍋.5*⍨+/×⍨⍵}⌷atan2/)((typ=¯1)⌿pos)-⍤1⊢0⌷pos    ⍝ Player chases closest green clone
   pos←h w|⍤1⌊0.5+pos+s×⍉1 2∘.○dir                           ⍝ Everybody moves s units each step
   age pos dir typ(⌿⍨)←⊂(typ≥0)∨(2×r)≤.5*⍨+/×⍨(0⌷pos)-⍤1⊢pos ⍝ Player eats overlapping clones
   age pos dir typ(⌿⍨)←⊂(typ≥0)∨age<60                       ⍝ Clones die of old age
